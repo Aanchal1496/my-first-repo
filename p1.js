@@ -1,0 +1,8 @@
+//Practical 1:Find the sum of all the nos below 1000 that are divisible by 3 or 5
+let sum = 0;
+for(let i=0;i<1000;i++){
+    if (i % 3 == 0 || i % 5 == 0){
+        sum += i;
+    }
+}
+console.log(`The sum is: ${sum}`);
